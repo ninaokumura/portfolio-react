@@ -5,8 +5,8 @@ import './header.css';
 function Header() {
   return (
     <header className='header'>
-      {' '}
-      HEADER
+      <h3 className='logo'>Nina Okumura</h3>
+
       <Navbar />
     </header>
   );
