@@ -7,14 +7,17 @@ function Navbar() {
   return (
     <nav className='navbar'>
       <ul className='navbar-list'>
-        {/* <li>
-          <Link to='/'>Home</Link>
-        </li> */}
         <li>
-          <Link to='/projects'>MY PROJECTS</Link>
+          <Link to='/blog'>Blog</Link>
         </li>
         <li>
-          <Link to='/about'>ABOUT ME</Link>
+          <Link to='/projects'>Projects</Link>
+        </li>
+        <li>
+          <Link to='/about'>About</Link>
+        </li>
+        <li>
+          <Link to='/contact'>Contact me</Link>
         </li>
       </ul>
     </nav>
