@@ -1,12 +1,22 @@
 import React from 'react';
-
-import './timeline.css';
+import {
+  FaNodeJs,
+  FaReact,
+  FaHtml5,
+  FaFreeCodeCamp,
+  FaGraduationCap,
+  FaStar,
+  FaGithub,
+} from 'react-icons/fa';
+import { SiJavascript, SiMongodb } from 'react-icons/si';
+import { GrCertificate } from 'react-icons/gr';
 
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import './timeline.css';
 
 function Timeline() {
   return (
@@ -14,76 +24,84 @@ function Timeline() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
-          contentStyle={{ background: 'black', color: '#fff' }}
-          contentArrowStyle={{ borderRight: '7px solid  black' }}
-          date='2011 - present'
-          iconStyle={{ background: 'white', color: '#fff' }}
-          // icon={<WorkIcon />}
+          date='Dec 2021 - present'
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<FaReact />}
         >
           <h3 className='vertical-timeline-element-title'>Learning React</h3>
-
           <p>Epic React - Kent C. Dodds</p>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className='vertical-timeline-element--work'
-          date='Oct 21 - Dec 21'
-          iconStyle={{ background: 'black', color: '#fff' }}
-          // icon={<WorkIcon />}
-        >
-          <h3 className='vertical-timeline-element-title'>
-            Complete Node.js Bootcamp
-          </h3>
 
-          <p>Jonas Schmedtmann</p>
+        <VerticalTimelineElement
+          className='vertical-timeline-element'
+          date='Oct 21 - Dec 21'
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<FaNodeJs />}
+        >
+          <h3 className='vertical-timeline-element-title'>MongoDB Basics</h3>
+
+          <p>MongoDB University</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className='vertical-timeline-element'
+          date='Oct 21 - Dec 21'
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<FaNodeJs />}
+        >
+          <h3 className='vertical-timeline-element-title'>Node.js Bootcamp</h3>
+
+          <p>Jonas Schmedtmann - Udemy</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className='vertical-timeline-element--work'
-          contentStyle={{ background: 'black', color: '#fff' }}
+          className='vertical-timeline-element'
           date='Aug 21 - Oct 21'
-          iconStyle={{ background: 'white', color: '#fff' }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<FaGraduationCap />}
         >
-          <h3 className='vertical-timeline-element-title'>Dev Academy</h3>
-          <h4 className='vertical-timeline-element-subtitle'>
-            Auckland - New Zealand
-          </h4>
+          <h3 className='vertical-timeline-element-title'>
+            Enspiral Dev Academy
+          </h3>
+
           <p>Coding Bootcamp</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className='vertical-timeline-element--work'
+          className='vertical-timeline-element'
           date='Jun 21 - Aug 21'
-          iconStyle={{ background: 'black', color: '#fff' }}
-          // icon={<WorkIcon />}
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<FaHtml5 />}
         >
           <h3 className='vertical-timeline-element-title'>HTML and CSS</h3>
 
           <p>Jonas Schmedtmann</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
-          className='vertical-timeline-element--education'
-          contentStyle={{ background: 'black', color: '#fff' }}
+          className='vertical-timeline-element'
+          // contentStyle={{ background: 'black', color: '#fff' }}
           date='April 2013'
-          iconStyle={{ background: 'white', color: '#fff' }}
-          // icon={<SchoolIcon />}
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<SiJavascript />}
         >
-          <h3 className='vertical-timeline-element-title'>JavaScript course</h3>
-          <h4 className='vertical-timeline-element-subtitle'>Online Course</h4>
-          <p>Strategy, Social Media</p>
+          <h3 className='vertical-timeline-element-title'>JavaScript</h3>
+          {/* <h4 className='vertical-timeline-element-subtitle'>Online Course</h4> */}
+          <p>Jonas Schmedtmann - Udemy</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='November 2012'
-          iconStyle={{ background: 'black', color: '#fff' }}
-          // icon={<SchoolIcon />}
+          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          icon={<FaFreeCodeCamp />}
         >
-          <h3 className='vertical-timeline-element-title'>Free CodeCamp</h3>
-          <h4 className='vertical-timeline-element-subtitle'>Online Course</h4>
-          <p>Learning Html and Css</p>
+          <h3 className='vertical-timeline-element-title'>
+            Responsive Web Design
+          </h3>
+          {/* <h4 className='vertical-timeline-element-subtitle'>Online Course</h4> */}
+          <p>FreeCodeCamp</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-          // icon={<StarIcon />}
+          iconStyle={{ background: 'black', color: 'white' }}
+          icon={<FaStar />}
         />
       </VerticalTimeline>
     </div>

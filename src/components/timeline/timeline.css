@@ -1,3 +1,16 @@
-.timeline {
-  background-color: whitesmoke;
+.vertical-timeline-element {
+  font-size: 2rem;
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.8rem;
+}
+
+.vertical-timeline-element-subtitle {
+  font-size: 1.3rem;
+}
+
+.vertical-timeline-element-date {
+  text-align: left;
+  color: black;
 }
