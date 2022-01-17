@@ -1,3 +1,10 @@
+.timeline-title {
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  background-color: black;
+  color: whitesmoke;
+  height: 1rem;
+}
 .vertical-timeline-element {
   font-size: 2rem;
 }
@@ -21,4 +28,5 @@
 
 .certificate-icon {
   font-size: 2rem;
+  /* color: rebeccapurple; */
 }

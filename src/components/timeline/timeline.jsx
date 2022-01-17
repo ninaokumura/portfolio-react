@@ -22,6 +22,7 @@ import './timeline.css';
 function Timeline() {
   return (
     <div className='timeline'>
+      <h1 className='timeline-title'>My learning journey</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
