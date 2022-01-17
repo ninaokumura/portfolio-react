@@ -8,7 +8,7 @@ import Footer from './components/footer/footer';
 import Home from './Pages/Home';
 import Projects from './Pages/Projects';
 import AboutMe from './Pages/AboutMe';
-import ContactMe from './Pages/ContactMe';
+import HireMe from './Pages/HireMe';
 import NotFound from './Pages/NotFound';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             {/* <Route path='/blog' element={<Blog />} /> */}
             <Route path='/projects' element={<Projects />} />
             <Route path='/about' element={<AboutMe />} />
-            <Route path='/contact' element={<ContactMe />} />
+            <Route path='/contact' element={<HireMe />} />
             <Route path='*' element={<NotFound />} />
           </Routes>
         </main>
