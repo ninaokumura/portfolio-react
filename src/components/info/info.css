@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+}
+
+.info-container {
+  padding: 4rem;
+}
+
+.info-title {
+  font-size: 2.3rem;
+}
+
+.info-text {
+  font-size: 1.5rem;
+}
+
+.info-img {
+  width: 25rem;
+  border-radius: 0.5rem;
+}
+
+.info-icon {
+  color: rebeccapurple;
+  font-size: 2.5rem;
+}
