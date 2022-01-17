@@ -14,3 +14,11 @@
   text-align: left;
   color: black;
 }
+
+.subtitle {
+  padding-bottom: 2rem;
+}
+
+.certificate-icon {
+  font-size: 2rem;
+}
