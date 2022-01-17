@@ -1,8 +1,8 @@
 .timeline-title {
   font-size: 3rem;
   padding-bottom: 3rem;
-  background-color: black;
-  color: whitesmoke;
+  /* background-color: black; */
+  color: black;
   height: 1rem;
 }
 .vertical-timeline-element {
