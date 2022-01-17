@@ -6,7 +6,10 @@ import './info.css';
 function Info() {
   return (
     <div className='grid-container'>
-      <img className='info-img' src='/images/me.jpg' />
+      <div className='pattern-dots-md gray-dark'>
+        <img className='info-img' src='/images/me.jpg' />
+      </div>
+
       <div className='info-container'>
         <h3 className='info-title'>Hi, I am Nina!</h3>
         <p className='info-text'>
