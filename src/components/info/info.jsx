@@ -13,14 +13,13 @@ function Info() {
       <div className='info-container'>
         <h3 className='info-title'>Hi, I am Nina!</h3>
         <p className='info-text'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim
-          voluptates quisquam unde praesentium sunt magnam alias, eaque nam odit
-          dolore natus, optio doloribus sint reprehenderit quis odio facilis
-          corporis neque. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Dolores velit modi, non optio tempora quidem. Ea eos unde quas
-          hic labore neque, error dolores velit distinctio. Excepturi facilis
-          tempore ratione.
+          I am a self-taught web developer with a passion to learn more about
+          Web Design and accessibility. I believe that software development can
+          be a powerful tool to help improving other people's lives by being
+          accessible and inclusive and am very excited to be in this career
+          path.
         </p>
+
         <span className='info-icon'>
           <a href='https://www.linkedin.com/in/nina-7b4377221/'>
             <FaLinkedin />

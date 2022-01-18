@@ -17,6 +17,8 @@
 
 .info-text {
   font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2.3rem;
 }
 
 .info-img {
