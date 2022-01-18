@@ -41,7 +41,7 @@ function Timeline() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element'
-          date='Oct 21 - Dec 21'
+          date='Dec 21'
           iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
           icon={<FaNodeJs />}
         >
@@ -57,7 +57,7 @@ function Timeline() {
 
         <VerticalTimelineElement
           className='vertical-timeline-element'
-          date='Dec 21'
+          date='Oct 21 - Dec 21'
           iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
           icon={<FaNodeJs />}
         >
