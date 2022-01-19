@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 
 const sentences = [
-  'Nina wants to be a developer',
-  'Poor girl...',
-  'Check my learning journey here',
+  'Hi, I am Nina',
+  'A self-taught coder',
+  'Click here to check my progress',
 ];
 const lastStepIndex = sentences.length - 1;
 
