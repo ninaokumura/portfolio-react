@@ -64,16 +64,18 @@ function Timeline() {
           <h3 className='vertical-timeline-element-title'>Node.js Bootcamp</h3>
 
           <p className='subtitle'>Jonas Schmedtmann - Udemy</p>
-          <span className='certificate-icon'>
-            <a href='https://udemy-certificate.s3.amazonaws.com/image/UC-790e0a3c-647c-4b2f-96dd-79d88b8d7b1a.jpg'>
-              <GrCertificate />
-            </a>
-          </span>
-          <span className='certificate-icon'>
-            <a href='https://github.com/ninaokumura'>
-              <FaGithub />
-            </a>
-          </span>
+          <div className='icons-container'>
+            <span className='certificate-icon'>
+              <a href='https://udemy-certificate.s3.amazonaws.com/image/UC-790e0a3c-647c-4b2f-96dd-79d88b8d7b1a.jpg'>
+                <GrCertificate />
+              </a>
+            </span>
+            <span className='certificate-icon'>
+              <a href='https://github.com/ninaokumura'>
+                <FaGithub />
+              </a>
+            </span>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element'
@@ -101,16 +103,18 @@ function Timeline() {
           <h3 className='vertical-timeline-element-title'>HTML and CSS</h3>
 
           <p className='subtitle'>Jonas Schmedtmann</p>
-          <span className='certificate-icon'>
-            <a href='https://www.udemy.com/certificate/UC-f206e098-0f0a-4eb2-b3cd-42e896014218/'>
-              <GrCertificate />
-            </a>
-          </span>
-          <span className='certificate-icon'>
-            <a href='https://github.com/ninaokumura'>
-              <FaGithub />
-            </a>
-          </span>
+          <div className='icons-container'>
+            <span className='certificate-icon'>
+              <a href='https://www.udemy.com/certificate/UC-f206e098-0f0a-4eb2-b3cd-42e896014218/'>
+                <GrCertificate />
+              </a>
+            </span>
+            <span className='certificate-icon'>
+              <a href='https://github.com/ninaokumura'>
+                <FaGithub />
+              </a>
+            </span>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element'
@@ -122,16 +126,18 @@ function Timeline() {
           <h3 className='vertical-timeline-element-title'>JavaScript</h3>
           {/* <h4 className='vertical-timeline-element-subtitle'>Online Course</h4> */}
           <p className='subtitle'>Jonas Schmedtmann - Udemy</p>
-          <span className='certificate-icon'>
-            <a href='https://www.udemy.com/certificate/UC-554a1c02-21bb-415f-9893-dc77a85b2630/'>
-              <GrCertificate />
-            </a>
-          </span>
-          <span className='certificate-icon'>
-            <a href='https://github.com/ninaokumura'>
-              <FaGithub />
-            </a>
-          </span>
+          <div className='icons-container'>
+            <span className='certificate-icon'>
+              <a href='https://www.udemy.com/certificate/UC-554a1c02-21bb-415f-9893-dc77a85b2630/'>
+                <GrCertificate />
+              </a>
+            </span>
+            <span className='certificate-icon'>
+              <a href='https://github.com/ninaokumura'>
+                <FaGithub />
+              </a>
+            </span>
+          </div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
@@ -144,16 +150,18 @@ function Timeline() {
           </h3>
           {/* <h4 className='vertical-timeline-element-subtitle'>Online Course</h4> */}
           <p className='subtitle'>FreeCodeCamp</p>
-          <span className='certificate-icon'>
-            <a href='https://www.freecodecamp.org/certification/elaine-okumura/responsive-web-design'>
-              <GrCertificate />
-            </a>
-          </span>
-          <span className='certificate-icon'>
-            <a href='https://github.com/ninaokumura'>
-              <FaGithub />
-            </a>
-          </span>
+          <div className='icons-container'>
+            <span className='certificate-icon'>
+              <a href='https://www.freecodecamp.org/certification/elaine-okumura/responsive-web-design'>
+                <GrCertificate />
+              </a>
+            </span>
+            <span className='certificate-icon'>
+              <a href='https://github.com/ninaokumura'>
+                <FaGithub />
+              </a>
+            </span>
+          </div>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
