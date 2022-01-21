@@ -13,20 +13,22 @@ function Form() {
         encType='text/plain'
       >
         <label>
-          Name:
-          <input type='text' name='name' />
+          <input type='text' placeholder='Name' />
         </label>
         <br />
         <label>
-          Email:
-          <input type='text' name='email' />
+          <input type='text' placeholder='Email' />
         </label>
         <br />
         <label>
-          Message:
-          <textarea name='message' rows='10' cols='30'></textarea>
+          <textarea placeholder='Message' rows='10' cols='30'></textarea>
         </label>
-        <input type='submit' name='message' value='Submit' />
+        <input
+          className='submit-btn'
+          type='submit'
+          name='message'
+          value='Submit'
+        />
       </form>
     </div>
   );
