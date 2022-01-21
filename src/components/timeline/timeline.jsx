@@ -43,7 +43,7 @@ function Timeline() {
           className='vertical-timeline-element'
           date='Dec 21'
           iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
-          icon={<FaNodeJs />}
+          icon={<SiMongodb />}
         >
           <h3 className='vertical-timeline-element-title'>MongoDB Basics</h3>
 
