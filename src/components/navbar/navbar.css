@@ -11,7 +11,8 @@
 .navbar-list {
   display: flex;
   gap: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .navbar-list > li {
@@ -20,6 +21,10 @@
   align-items: center;
   text-decoration: none;
   list-style: none;
+}
+
+.navbar-list > li:hover {
+  color: #078080;
 }
 
 .right-side {

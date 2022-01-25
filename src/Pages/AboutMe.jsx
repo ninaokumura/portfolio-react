@@ -7,7 +7,7 @@ function AboutMe() {
   return (
     <div>
       <Info />
-
+      <hr style={{ borderTop: '1px dotted #222525' }} />
       <Timeline />
     </div>
   );

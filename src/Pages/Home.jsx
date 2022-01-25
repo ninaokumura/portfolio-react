@@ -14,7 +14,7 @@ function Home() {
   const [finishedIntro, setFinishedIntro] = useState(false);
 
   return (
-    <div>
+    <div style={{ padding: '0 8%' }}>
       <Link to='/about'>
         <Typewriter
           onInit={typewriter => {

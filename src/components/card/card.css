@@ -5,10 +5,17 @@
   padding: 1rem;
   height: 25rem;
   background-color: hsla(0, 0%, 98%, 0.8);
+  /* padding: 0.5rem; */
+}
+
+.card:hover {
+  outline: 3px solid #f45d48;
 }
 
 .card-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+
+  padding-bottom: 1rem;
 }
 
 .card-img {

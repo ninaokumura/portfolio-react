@@ -27,7 +27,7 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element--work'
           date='Dec 2021 - present'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<FaReact />}
         >
           <h3 className='vertical-timeline-element-title'>Learning React</h3>
@@ -42,7 +42,7 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element'
           date='Dec 21'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<SiMongodb />}
         >
           <h3 className='vertical-timeline-element-title'>MongoDB Basics</h3>
@@ -58,7 +58,7 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element'
           date='Oct 21 - Dec 21'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<FaNodeJs />}
         >
           <h3 className='vertical-timeline-element-title'>Node.js Bootcamp</h3>
@@ -80,7 +80,7 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element'
           date='Aug 21 - Oct 21'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<FaGraduationCap />}
         >
           <h3 className='vertical-timeline-element-title'>
@@ -97,7 +97,7 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element'
           date='Aug 21'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<FaHtml5 />}
         >
           <h3 className='vertical-timeline-element-title'>HTML and CSS</h3>
@@ -120,7 +120,7 @@ function Timeline() {
           className='vertical-timeline-element'
           // contentStyle={{ background: 'black', color: '#fff' }}
           date='Jun 21 - Aug 21'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<SiJavascript />}
         >
           <h3 className='vertical-timeline-element-title'>JavaScript</h3>
@@ -142,7 +142,7 @@ function Timeline() {
         <VerticalTimelineElement
           className='vertical-timeline-element--education'
           date='Feb 21 - Mar 21'
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<FaFreeCodeCamp />}
         >
           <h3 className='vertical-timeline-element-title'>
@@ -165,7 +165,7 @@ function Timeline() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          iconStyle={{ background: 'rebeccaPurple', color: 'whiteSmoke' }}
+          iconStyle={{ background: '#f45d48', color: 'whiteSmoke' }}
           icon={<FaStar />}
         />
       </VerticalTimeline>

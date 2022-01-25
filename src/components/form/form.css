@@ -24,7 +24,7 @@ input {
 
 .submit-btn {
   width: 100%;
-  background-color: black;
+  background-color: #078080;
   color: whitesmoke;
   padding: 0.5rem;
   border: none;
@@ -32,5 +32,5 @@ input {
 }
 
 .submit-btn:hover {
-  background-color: rebeccapurple;
+  background-color: #f45d48;
 }

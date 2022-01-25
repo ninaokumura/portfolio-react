@@ -2,23 +2,25 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
-  margin-top: 2rem;
-  margin-bottom: 7rem;
-  min-height: calc(100vh - 122px);
+  padding: 1% 10%;
+  /* margin-top: 2rem;
+  margin-bottom: 7rem; */
+  /* min-height: calc(100vh - 122px); */
 }
 
 .info-container {
-  padding: 4rem;
+  padding: 3% 8%;
 }
 
 .info-title {
+  color: #078080;
   font-size: 2.3rem;
 }
 
 .info-text {
   font-size: 1.5rem;
   text-align: justify;
-  line-height: 2.3rem;
+  line-height: 2.7rem;
 }
 
 .info-img {
@@ -28,6 +30,10 @@
 }
 
 .info-icon {
-  color: rebeccapurple;
+  color: #f45d48;
   font-size: 2.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }

@@ -1,6 +1,10 @@
 .footer {
-  background-color: black;
-  color: whitesmoke;
-  font-size: 0.8rem;
-  padding: 1rem;
+  /* background-color: #feefe8; */
+  color: #232323;
+  font-size: 1rem;
+  padding: 3% 10%;
+}
+
+.footer-icon {
+  color: #f45d48;
 }

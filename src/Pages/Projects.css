@@ -1,11 +1,13 @@
 .title {
-  font-size: 3.5rem;
+  font-size: 3rem;
+  color: #078080;
+  font-family: 'Roboto Mono', monospace;
 }
 .cards-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  padding: 1rem;
+  padding: 3%;
 }
 
 .projects-btn {
@@ -14,10 +16,10 @@
   border: none;
   border-radius: 0.5rem;
   font-size: 1.2rem;
-  background-color: black;
+  background-color: #078080;
   color: whitesmoke;
 }
 
 .projects-btn:hover {
-  background-color: rebeccapurple;
+  background-color: #f45d48;
 }
