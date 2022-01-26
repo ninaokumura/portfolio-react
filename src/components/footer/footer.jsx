@@ -5,7 +5,9 @@ import './footer.css';
 function Footer() {
   return (
     <footer className='footer'>
-      Made with <FaHeart className='footer-icon' /> by Nina
+      <span className='footer-text'>
+        Made with <FaHeart className='footer-icon' /> by Nina
+      </span>
     </footer>
   );
 }
