@@ -1,8 +1,10 @@
 .title {
   font-size: 3rem;
   color: #078080;
+
   font-family: 'Roboto Mono', monospace;
 }
+
 .cards-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

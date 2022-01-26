@@ -84,7 +84,7 @@ const projects = [
 
 function Projects() {
   return (
-    <div>
+    <div className='project-container'>
       <h1 className='title'>My Projects</h1>
 
       <div className='cards-container'>
