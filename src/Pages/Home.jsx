@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Typewriter from 'typewriter-effect';
@@ -11,8 +11,6 @@ const sentences = [
 const lastStepIndex = sentences.length - 1;
 
 function Home() {
-  const [finishedIntro, setFinishedIntro] = useState(false);
-
   return (
     <div style={{ padding: '0 8%' }}>
       <Link to='/about'>
