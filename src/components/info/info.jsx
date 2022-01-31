@@ -7,7 +7,7 @@ function Info() {
   return (
     <div className='grid-container'>
       <div className='pattern-dots-md gray-dark'>
-        <img className='info-img' src='/images/me.jpg' />
+        <img className='info-img' src='/images/me.jpg' alt='avatar' />
       </div>
 
       <div className='info-container'>
