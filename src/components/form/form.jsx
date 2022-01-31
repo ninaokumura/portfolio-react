@@ -10,7 +10,6 @@ function Form() {
           className='form'
           method='post'
           action='mailto:elaineokumura@gmail.com'
-          method='post'
           encType='text/plain'
         >
           <label>
