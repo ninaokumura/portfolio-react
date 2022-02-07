@@ -1,29 +1,29 @@
 import React from 'react';
 import Card from '../components/card/card';
 
-// Icons
-import { FaNodeJs, FaReact, FaHtml5, FaBootstrap } from 'react-icons/fa';
-import {
-  SiJavascript,
-  SiMongodb,
-  SiCss3,
-  SiPug,
-  SiHandlebarsdotjs,
-} from 'react-icons/si';
+// // Icons
+// import { FaNodeJs, FaReact, FaHtml5, FaBootstrap } from 'react-icons/fa';
+// import {
+//   SiJavascript,
+//   SiMongodb,
+//   SiCss3,
+//   SiPug,
+//   SiHandlebarsdotjs,
+// } from 'react-icons/si';
 
 import './Projects.css';
 
-const icons = {
-  react: FaReact,
-  mongodb: SiMongodb,
-  node: FaNodeJs,
-  html: FaHtml5,
-  javascript: SiJavascript,
-  bootstrap: FaBootstrap,
-  css: SiCss3,
-  pug: SiPug,
-  handlebars: SiHandlebarsdotjs,
-};
+// const icons = {
+//   react: FaReact,
+//   mongodb: SiMongodb,
+//   node: FaNodeJs,
+//   html: FaHtml5,
+//   javascript: SiJavascript,
+//   bootstrap: FaBootstrap,
+//   css: SiCss3,
+//   pug: SiPug,
+//   handlebars: SiHandlebarsdotjs,
+// };
 
 const projects = [
   {
