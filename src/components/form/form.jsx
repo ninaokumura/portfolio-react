@@ -6,7 +6,7 @@ function Form() {
   return (
     <div className='form-container'>
       <div className='details-container'>
-        <form className='form' method='post' name='contact'>
+        <form className='form' method='post' name='contact' data-netlify>
           <input type='hidden' name='form-name' value='contact' />
 
           <label>
