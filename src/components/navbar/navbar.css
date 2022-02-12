@@ -4,14 +4,13 @@
 .navbar {
   width: 100%;
   display: flex;
-
   justify-content: flex-end;
 }
 
 .navbar-list {
   display: flex;
   gap: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -21,10 +20,12 @@
   align-items: center;
   text-decoration: none;
   list-style: none;
+  transition: all ease-in 0.15s;
 }
 
 .navbar-list > li:hover {
-  color: #078080;
+  color: #f45d48;
+  font-weight: bold;
 }
 
 .right-side {
