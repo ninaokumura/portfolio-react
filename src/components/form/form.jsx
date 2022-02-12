@@ -1,70 +1,26 @@
-import React, { useState, useMemo } from 'react';
+import React from 'react';
 
 import './form.css';
 
 function Form() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-
-  const handleNameChange = event => {
-    setName(event.target.value);
-  };
-
-  const handleEmailChange = event => {
-    setEmail(event.target.value);
-  };
-
-  const handleMessageChange = event => {
-    setMessage(event.target.value);
-  };
-
-  const handleSubmit = event => {
-    event.preventDefault();
-    const formData = { name, email, message };
-    console.log(formData);
-  };
-
-  const isFormValid = useMemo(() => {
-    if (name === '') {
-      return false;
-    }
-    if (email === '') {
-      return false;
-    }
-    if (message === '') {
-      return false;
-    }
-    return true;
-  }, [name, email, message]);
-
   return (
     <div className='form-container'>
       <div className='details-container'>
         <form
           className='form'
-          //  action='mailto:elaineokumura@gmail.com'
+          method='post'
+          name='contact'
           encType='text/plain'
-          onSubmit={handleSubmit}
+          data-netlify='true'
         >
+          <input type='hidden' name='form-name' value='contact' required />
+
           <label>
-            <input
-              name='name'
-              type='text'
-              placeholder='Name'
-              value={name}
-              onChange={handleNameChange}
-            />
+            <input name='name' type='text' placeholder='Name' required />
           </label>
           <br />
           <label>
-            <input
-              name='email'
-              type='email'
-              placeholder='Email'
-              value={email}
-              onChange={handleEmailChange}
-            />
+            <input name='email' type='email' placeholder='Email' required />
           </label>
           <br />
 
@@ -73,16 +29,10 @@ function Form() {
             placeholder='Message'
             rows='10'
             cols='30'
-            value={message}
-            onChange={handleMessageChange}
+            required
           ></textarea>
 
-          <input
-            className='submit-btn'
-            type='submit'
-            value='Submit'
-            disabled={!isFormValid}
-          />
+          <input className='submit-btn' type='submit' value='Submit' />
         </form>
         <div className='contact-info'>
           <h2>Get in touch</h2>
