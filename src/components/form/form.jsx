@@ -21,7 +21,8 @@ function Form() {
 
   const handleSubmit = event => {
     event.preventDefault();
-    console.log(event);
+    const formData = { name, email, message };
+    console.log(formData);
   };
 
   const isFormValid = useMemo(() => {
