@@ -13,7 +13,9 @@
 }
 
 .info-title {
-  color: #078080;
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=078080);
+  color: #fff;
+  /* color: #078080; */
   font-size: 2.3rem;
 }
 
