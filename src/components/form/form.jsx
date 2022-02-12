@@ -6,14 +6,8 @@ function Form() {
   return (
     <div className='form-container'>
       <div className='details-container'>
-        <form
-          className='form'
-          method='post'
-          name='contact'
-          encType='text/plain'
-          data-netlify='true'
-        >
-          <input type='hidden' name='form-name' value='contact' required />
+        <form className='form' method='post' name='contact'>
+          <input type='hidden' name='form-name' value='contact' />
 
           <label>
             <input name='name' type='text' placeholder='Name' required />
