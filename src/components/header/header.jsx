@@ -6,9 +6,11 @@ import './header.css';
 function Header() {
   return (
     <header className='header'>
-      <h3 className='logo'>
-        <Link to='/'>Nina Okumura</Link>
-      </h3>
+      <div className='header-content'>
+        <Link to='/' className='logo'>
+          Nina Okumura
+        </Link>
+      </div>
 
       <Navbar />
     </header>

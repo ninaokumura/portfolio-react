@@ -41,6 +41,7 @@ function Timeline() {
   return (
     <div className='timeline'>
       <h1 className='timeline-title'>My learning journey</h1>
+      {/* <hr style={{ borderTop: '1px dotted #222525' }} /> */}
       <VerticalTimeline>
         {timelineItems.reverse().map(item => {
           const TimelineIcon = icons[item.timelineIconId];

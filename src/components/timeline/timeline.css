@@ -1,25 +1,29 @@
+.timeline {
+  padding-top: 5rem;
+}
+
 .timeline-title {
-  font-size: 3rem;
-  padding: 2% 10%;
-  /* background-color: black; */
+  font-size: 2.2rem;
+  padding-bottom: 5rem;
   color: #078080;
-  height: 1rem;
+  text-decoration: underline;
 }
 .vertical-timeline-element {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .vertical-timeline-element-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .vertical-timeline-element-subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .vertical-timeline-element-date {
   text-align: left;
   color: black;
+  font-size: 1.2rem;
 }
 
 .subtitle {
@@ -28,7 +32,6 @@
 
 .certificate-icon {
   font-size: 2rem;
-  /* color: rebeccapurple; */
 }
 
 .icons-container {

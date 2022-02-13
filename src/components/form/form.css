@@ -1,5 +1,5 @@
 h2 {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=078080);
   color: #fff;
   /* text-decoration-line: underline;
@@ -23,7 +23,7 @@ h2 {
 }
 
 .form {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   display: grid;
   padding: 1.5rem;
 }
