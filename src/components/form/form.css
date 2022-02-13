@@ -8,12 +8,11 @@ h2 {
 }
 
 .form-container {
-  /* border: 2px solid rebeccapurple; */
-  margin: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 0.5rem;
   background-color: hsla(0, 0%, 98%, 0.8);
+  position: relative;
 }
 
 .details-container {
@@ -75,4 +74,39 @@ textarea {
   font-size: 1.2rem;
   display: grid;
   place-items: center;
+}
+
+.form-message {
+  position: absolute;
+  font-size: 1.25rem;
+  top: -2rem;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  font-weight: 600;
+}
+
+.message {
+  background-color: #eaeaea;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  animation: slideDown 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.success-message {
+  color: #078080;
+}
+
+.error-message {
+  color: #f45d48;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-50vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

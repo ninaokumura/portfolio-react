@@ -55,9 +55,19 @@ function Form() {
 
   return (
     <div className='form-container'>
+      <div className='form-message'>
+        {submitError && (
+          <div className='error-message message'>
+            Failed to submit form: {submitError}
+          </div>
+        )}
+        {submitted && (
+          <div className='success-message message'>
+            Thanks for reaching out!
+          </div>
+        )}
+      </div>
       <div className='details-container'>
-        {submitError && <div>Failed to submit form: {submitError}</div>}
-        {submitted && <div>Thanks for reaching out!</div>}
         <form
           className='form'
           method='post'
