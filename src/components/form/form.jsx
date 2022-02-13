@@ -72,10 +72,11 @@ function Form() {
           className='form'
           method='post'
           name='contact'
-          onSubmit={handleSubmit}
           data-netlify
+          onSubmit={handleSubmit}
         >
           <input type='hidden' name='form-name' value='contact' />
+
           <label>
             <input
               name='name'
